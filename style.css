@@ -4,15 +4,27 @@
   width: 400px;
   margin-bottom: 50px;
 }
-p{
+#notes-display{
+  font-weight: bold;
+  font-size: 20px;
+  padding: 0 20px;
+  
+}
+#notes-div{
+  border-bottom: 3px solid blue;
+}
+#download{
   font-weight: bold;
   font-size: 20px;
   color: gray;
   padding: 0 20px;
 }
-#note-page, #download-page{
+#note-page, #download-page {
   width: 90%;
   height: 200px;
   border: 3px solid blue;
-  display: none;
+  
+}
+#download-page{
+ display: none;
 }
